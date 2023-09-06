@@ -1,0 +1,22 @@
+p {
+    color: #0087CC;
+}
+
+header *{
+    text-decoration: none;
+    background-color: #0087CC;
+    float: right;
+    font-size: 3vh;
+    padding: 0.5vw;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+}
