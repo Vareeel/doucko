@@ -1,14 +1,10 @@
 {
-    "pepa": {
-        "email": "p@seznam.cz",
+    "karel": {
+        "email": "karel@spstrutnov.cz",
         "heslo": "heslo"
     },
-    "Karel": {
+    "Tektek": {
         "email": "karel@spstrutnov.cz",
-        "heslo": "herslo"
-    },
-    "karel": {
-        "email": "l@spst.ss",
         "heslo": "heslo"
     }
 }

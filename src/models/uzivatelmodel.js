@@ -6,12 +6,20 @@ const jsondb = require('simple-json-db');
 const db = new jsondb('./data/uzivatele.json');
 
 exports.pridatUzivatele = (email, jmeno, hashHeslo) => {
-    db.set(jmeno, {
-        email: email,
-        heslo: hashHeslo
-    })
 
-    return true;
+    if (db.has(jmeno) == false) {
+
+        db.set(jmeno, {
+            email: email,
+            heslo: hashHeslo
+        })
+
+        return "Uživatel byl vytvořen.";
+
+    }
+
+
+    return "Jeméno již existuje.";
 }
 
 exports.existuje = (jmeno) => {
@@ -32,3 +40,5 @@ exports.spravneheslo = (jmeno, heslo) => {
     return false
 
 }
+
+
