@@ -1,6 +1,14 @@
 {
-"pepa":  {
-    "email": "poo",
-    "heslo": "Klesko123"
-}
+    "pepa": {
+        "email": "p@seznam.cz",
+        "heslo": "heslo"
+    },
+    "Karel": {
+        "email": "karel@spstrutnov.cz",
+        "heslo": "herslo"
+    },
+    "karel": {
+        "email": "l@spst.ss",
+        "heslo": "heslo"
+    }
 }
